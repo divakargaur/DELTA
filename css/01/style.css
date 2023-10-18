@@ -1,0 +1,84 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    color: bisque;
+}
+
+button {
+    background-color: bisque;
+    color: black;
+    border-color: transparent;
+    font-weight: bold;
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+}
+
+#text-left {
+    text-align: left;
+}
+
+#text-right {
+    text-align: end;
+}
+
+#text-justify {
+    text-align: justify;
+}
+
+#font-weight {
+    font-weight: bolder;
+}
+
+#text-decoration1 {
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    text-decoration-style: dashed;
+}
+
+#text-decoration2 {
+    text-decoration: line-through;
+    text-decoration-color: aqua;
+    text-decoration-style: double;
+}
+
+#text-decoration3 {
+    text-decoration: overline;
+    text-decoration-color: aqua;
+    text-decoration-style: dotted;
+}
+
+a {
+    color: bisque;
+    text-decoration: none;
+}
+
+#line-height {
+    line-height: 2.5;
+    letter-spacing: 5px;
+}
+
+#font-size {
+    font-size: larger;
+}
+
+#font-family {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+.apna {
+    font-family: 'Courier New', Courier, monospace;
+    color: gold;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-decoration: teal double underline;
+    text-transform: uppercase;
+}

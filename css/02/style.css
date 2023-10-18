@@ -1,0 +1,25 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html, body {
+    background: black;
+    color: gold;
+}
+
+a {
+    color: gold;
+    text-decoration: none;
+}
+
+button {
+    background: teal;
+    border-color: teal;
+    border-radius: 5px;
+}
+
+#login, #signup {
+    background: aliceblue;
+    border-color: aliceblue;
+    border-radius: 5px;
+}
