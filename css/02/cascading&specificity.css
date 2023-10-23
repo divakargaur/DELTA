@@ -1,0 +1,19 @@
+/* 
+CSS: Cascading StyleSheets
+--------------------------
+The CSS cascade algorithm's job is to select CSS declarations in order to determine the correct values for CSS properties.
+-> h2 {}
+-> h2 {} <- final property will be valid
+
+
+Selector Specificity
+--------------------
+Specificity is an algorithm that calculates the weight that is applied to a given CSS declaration.
+-> inline-specificity > id > class/attribute/pseudo-class > element/pseudo-element
+-> more selectors > less selectors <- good practice
+-> if specificity is same we compare cascade algorithm
+-> we usually don't use inline specificity
+
+
+-> !important <- it will not change in any case
+*/

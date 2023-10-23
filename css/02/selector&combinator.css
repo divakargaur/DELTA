@@ -1,0 +1,27 @@
+/*
+Descendent Selector
+-------------------
+-> div p {
+   }
+-> not need to be a direct child
+
+
+Sibling Combinator
+------------------
+-> p + h3 {
+   }
+-> only applies on the second sibling
+
+
+Child Combinator
+----------------
+-> span > button {
+   }
+-> direct child
+
+
+Attribute Selector
+------------------
+-> input[type="text"] {
+   }
+*/

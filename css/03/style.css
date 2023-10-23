@@ -1,0 +1,28 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html, body {
+    background: black;
+    color: gold;
+}
+
+h1 {
+    margin: 25px;
+    text-align: center;
+}
+
+div, p {
+    padding: 5px;
+    text-align: center;
+}
+
+button {
+    background: gold;
+    font-weight: bold;
+    border: 3px solid gold;
+    border-radius: 5px;
+}

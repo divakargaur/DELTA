@@ -1,0 +1,9 @@
+/* 
+Pseudo Class
+------------
+A keyword added to a selector that specifies a special state of the selected elements.
+-> :hover ~ when we hover on something
+-> :active ~ when it is active 
+-> :checked ~ when we check it
+-> :nth-of-type() ~ to select the nth element of type
+*/

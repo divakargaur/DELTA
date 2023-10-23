@@ -23,3 +23,44 @@ button {
     border-color: aliceblue;
     border-radius: 5px;
 }
+
+ul, a, p a{
+    color: cyan;
+}
+
+h1, p {
+    color: red;
+}
+
+button:hover {
+    zoom: 110%;
+}
+
+button:active {
+    background: magenta;
+}
+
+input[type="radio"]:checked + label {
+    color: cyan;
+    font-weight: bold;
+}
+
+.nth:nth-of-type(2n+1) {
+    background: blue;
+}
+.nth:nth-of-type(2n) {
+    background: red;
+}
+
+h4::first-letter {
+    color: aqua;
+}
+
+h4 + p::first-line {
+    color: aqua;
+}
+
+h4 + p::selection {
+    color: black;
+    background: gold;
+}
