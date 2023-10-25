@@ -1,0 +1,14 @@
+/* 
+EM
+--
+-> relative to the parent
+-> 0.5em = 50%
+-> Drawback of EM
+          -> snowball effect
+
+
+REM
+---
+-> root em
+-> relative to the root element
+*/
